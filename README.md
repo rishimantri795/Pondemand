@@ -2,7 +2,7 @@
 
 > Transform any content into engaging, AI-powered podcast conversations
 
-Pondemand is an AI-powered platform that converts articles, PDFs, documents, and URLs into dynamic, conversational podcast episodes. Upload your sources, customize the conversation style and voices, and get instant audio content perfect for on-the-go listening.
+Pondemand is an AI tool that converts articles, PDFs, documents, and URLs into dynamic, conversational podcast episodes. You can upload your sources, customize the conversation style and voices, and get audio content for on-the-go listening.
 
 🌐 **Website**: [pondemand.ai](https://pondemand.ai)
 
