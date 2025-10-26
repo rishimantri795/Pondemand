@@ -6,7 +6,7 @@ Pondemand is an AI tool that converts articles, PDFs, documents, and URLs into d
 
 🌐 **Website**: [pondemand.ai](https://pondemand.ai)
 
-## 🎯 Features
+## Features
 
 - **Multi-Source Input**: Upload PDFs, paste URLs, Google Docs/Slides, YouTube links, or raw text
 - **AI-Powered Conversations**: Generate natural dialogue between AI hosts using state-of-the-art language models
@@ -18,7 +18,7 @@ Pondemand is an AI tool that converts articles, PDFs, documents, and URLs into d
 - **Google OAuth**: Secure authentication with Google Sign-In
 - **Credit System**: Daily credits for free users, with premium options available
 
-## 🏗️ Architecture
+## Architecture
 
 ### Frontend
 - **Framework**: Next.js 14 (React 18)
