@@ -1,0 +1,187 @@
+
+.todoForm {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  flex-direction: row;
+}
+
+.todoForm input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 650;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.credits {
+  padding-bottom: 1rem;
+}
+
+
+.errorMessage {
+  color: red;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+
+.btn {
+  border: none;
+  width: 7em;
+  height: 3em;
+  border-radius: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #1C1A1C;
+  cursor: pointer;
+  transition: all 450ms ease-in-out;
+}
+
+.sparkle {
+  fill: #AAAAAA;
+  transition: all 800ms ease;
+}
+
+.text {
+  font-weight: 600;
+  color: #AAAAAA;
+  font-size: medium;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: center;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.navButton {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: #1C1A1C;
+    font-size: medium;
+}
+
+.activeNavButton {
+    background-color:rgb(0,128,132);
+    color: #E5E7EB; 
+  }
+
+.inactiveNavButton {
+    background-color: #E5E7EB;
+    color: #1C1A1C;
+  }
+
+.btn:hover {
+  background: linear-gradient(0deg,#A47CF3,#683FEA);
+
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+  inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+  0px 0px 180px 0px #9917FF;
+  transform: translateY(-2px);
+}
+
+.btn:hover .text {
+  color: white;
+}
+
+.btn:hover .sparkle {
+  fill: white;
+  transform: scale(1.2);
+} 
+
+
+.toggleContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.toggleSwitch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.toggleSwitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #3B82F6;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.toggleLabel {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.describe {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-right: 2%;
+}
+
+.upload {
+  display: flex;
+  width: 100%;
+} 
+
+

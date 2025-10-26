@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env
+# .swc/
+# .*.env
+.vercel
+.newvenv/
+newvenv
+.client_secret_991795948849-q415komh297651220i01n2m8irb1d02f.apps.googleusercontent.com.json
+flask-backend/client_secret_991795948849-q415komh297651220i01n2m8irb1d02f.apps.googleusercontent.com.json
+flask-backend/pondemand-3f7ff-firebase-adminsdk-ivl2k-aa54fa94f5.json

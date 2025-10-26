@@ -1,0 +1,8 @@
+/* custom-audio-player-styles.scss */
+
+/* Customize React Audio Player theme */
+$rhap_theme-color: #4a90e2 !default;   // Color of all buttons and volume/progress indicators (blue theme)
+$rhap_background-color: #2A2A2A !important; // Lighter gray background color for the audio player
+$rhap_bar-color: #e4e4e4 !default;     // Color of volume and progress bar (light gray)
+$rhap_time-color: #2A2A2A !default;    // Font color of current time and duration (white)
+$rhap_font-family: inherit !default;   // Font family of current time and durations
