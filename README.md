@@ -4,13 +4,15 @@
 
 Pondemand is an AI-powered platform that converts articles, PDFs, documents, and URLs into dynamic, conversational podcast episodes. Upload your sources, customize the conversation style and voices, and get instant audio content perfect for on-the-go listening.
 
+🌐 **Website**: [pondemand.ai](https://pondemand.ai)
+
 ## 🎯 Features
 
 - **Multi-Source Input**: Upload PDFs, paste URLs, Google Docs/Slides, YouTube links, or raw text
 - **AI-Powered Conversations**: Generate natural dialogue between AI hosts using state-of-the-art language models
 - **Voice Customization**: Choose from preset voices or clone custom voices for a personalized touch
 - **Flexible Controls**: Adjust conversation length, style (educational, entertaining, debate), and depth
-- **Interactive Transcripts**: Follow along with timestamped transcripts synced to audio playback
+- **Interactive Transcripts**: Follow along with transcripts synced to audio playback
 - **Share & Export**: Download episodes or share them via email and social media
 - **User Library**: Save and organize your generated podcasts
 - **Google OAuth**: Secure authentication with Google Sign-In
@@ -35,7 +37,6 @@ Pondemand is an AI-powered platform that converts articles, PDFs, documents, and
   - Google Gemini for content analysis and script generation
   - ElevenLabs for text-to-speech and voice cloning
   - Perplexity (Sonar) for research and fact-checking
-- **Web Scraping**: BeautifulSoup4, Newspaper3k, Trafilatura
 - **PDF Processing**: PyPDF2
 
 ## 📁 Project Structure
@@ -179,7 +180,7 @@ newsaggregator/
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000
 
-## 🔑 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /googleauth` - Google OAuth callback
@@ -201,7 +202,7 @@ newsaggregator/
 - `POST /add_audio_to_share` - Share podcast publicly
 - `GET /check_credits/<userId>` - Check user's remaining credits
 
-## 🎨 Key Components
+## Key Components
 
 ### Frontend
 - **TodoApp**: Main interface for creating podcasts with customization options
@@ -213,35 +214,3 @@ newsaggregator/
 - **ondemandworker**: Async Celery task for podcast generation
 - **on_demand()**: Core logic for AI conversation generation
 - **Voice Management**: ElevenLabs API integration with custom voice support
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Google Gemini for advanced language understanding
-- ElevenLabs for high-quality text-to-speech
-- Perplexity for research capabilities
-- Firebase for seamless backend infrastructure
-- The open-source community for amazing tools and libraries
-
-## 📧 Contact
-
-For questions, feedback, or support, please reach out:
-- Email: prathik@pondemand.ai, rishi@pondemand.ai
-- Website: https://pondemand.ai
-
----
-
-Made with ❤️ by the Pondemand team
