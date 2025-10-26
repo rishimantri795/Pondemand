@@ -75,7 +75,7 @@ newsaggregator/
 └── package.json                 # Node.js dependencies
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
